@@ -14,3 +14,10 @@ A simple component that handles collisions with the hand joints. Uses:
 
 Short demonstration video: https://www.youtube.com/shorts/xgTx9lm-t_U
 
+Put the `HandPhysics` component under the Rapier `Physics` component, for each hand separately.
+
+### Room Geometry + Room Mesh
+
+A component that generates fixed physics colliders for the meshes detected by WebXR
+
+Put the `RoomGeometry` component under the Rapier `Physics` component
